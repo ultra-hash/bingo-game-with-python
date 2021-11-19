@@ -211,13 +211,6 @@ class supercomputer:
             if 1 star or less presnet in borad try star in corners and mid point
             if more than 1 star identify star's location and put a start striking max star's 
         '''
-    def checks(self):
-        self.virtual_board = self.init_board
-        #horizontal check
-        for i in range(5):
-            for j in range(5):
-                if self.virtual_board[i][j] == '*':
-                    location = 
 
 
 
