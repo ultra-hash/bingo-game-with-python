@@ -191,7 +191,7 @@ class computer:
 
 
 
-
+'''
 class supercomputer:
     def __init__(self,name):
         self.name = name
@@ -207,10 +207,11 @@ class supercomputer:
 
     def state(self,gameobj):
         self.init_board = [self.board.board[i*5:(i*5)+ 5] for i in range(5)]
-        '''
+        """
             if 1 star or less presnet in borad try star in corners and mid point
             if more than 1 star identify star's location and put a start striking max star's 
-        '''
+        """
+'''        
 
 
 
