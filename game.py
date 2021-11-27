@@ -156,7 +156,7 @@ class game:
     def gameover(self,player):
         self.game_not_over = False
         if not self.game_not_over:
-            print('B I N G O', player.name,'won')
+            #print('B I N G O', player.name,'won')
             self.gamewinner = player.name
 
 
