@@ -4,25 +4,24 @@ type of plays possible
 2. player vs player
 3. computer vs computer
 
-#how to play
-#setup
+# how to play
+## setup
 In the ' main ' function  use "player(name) or computer(name) " for player1 and player2
 
-#run
+## run
 use main() or max_games(1) to start game
 
 when you wannt to run computer vs computer for n time
 use max_games(n)
 
 
-
-game is built with 4 objects
-classes
-1.game
-2.board
-3.player
-4.computer
-5.super_computer (in progress)
+# game is built with 4 objects
+## classes
+  1. game
+  2. board
+  3. player
+  4. computer
+  5. super_computer (in progress)
 
 # game class
 game class contains game logic
